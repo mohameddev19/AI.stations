@@ -1,0 +1,131 @@
+#map {
+    height: 50%;
+    width: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#aiout{
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  margin-top: 1rem;
+}
+#body{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+}
+#body div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#body button{
+  outline: none;
+  border: none;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin: 1rem;
+  box-shadow: 0rem .1rem .2rem rgba(51, 51, 51, 0.6);
+}
+#body div > input{
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  width: 6rem;
+  border-radius: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  box-shadow: 0rem .1rem .2rem rgba(51, 51, 51, 0.6);
+}
+#output{
+  left: 0;
+  top: 10%;
+  height: 100%;
+  z-index: 10;
+  text-align: center;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  font-size: 18px;
+  font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+tr{
+ display: flex !important;
+ width: 100%;
+ flex-wrap: wrap;
+ text-align: center;
+}
+td{
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+ }
+.stops{
+  margin: 2rem;
+  height: 4rem;
+  width: 4rem;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0rem .1rem .2rem rgba(51, 51, 51, 0.6);
+}
+.stops input{
+  background-color: rgba(000, 000, 000, 0);
+  border: none;
+  outline: none;
+  width: 96%;
+  margin-left: 2%;
+  text-align: center;
+}
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #f8f8f8;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+  opacity: .5;
+  border-radius: 5px;
+  box-shadow: 0rem .1rem .2rem rgba(51, 51, 51, 0.6);
+}
+#floating-panel:hover{
+  opacity: 1;
+  color: #333;
+}
+#floating-panel select{
+  border: none;
+}
+#loc{
+  position: absolute;
+  top: calc(100% - 4rem) !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: medium;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0rem .1rem .2rem rgba(51, 51, 51, 0.6);
+}
+
